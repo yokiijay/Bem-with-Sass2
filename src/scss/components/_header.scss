@@ -1,0 +1,90 @@
+$header-bg-color: $color-dark;
+$header-border-color: $color-grey-1100;
+
+.header {
+  width: 100vw;
+  height: 58px;
+  background: $header-bg-color;
+  border-bottom: 1px solid $header-border-color;
+  // flex
+  display: flex;
+  align-items: center;
+}
+
+/*------------ Below, reusable Blocks without position ------------*/
+
+/* Logo */
+.logo {
+  width: 100px;
+  height: 56px;
+
+  &__img {
+    width: inherit;
+    height: inherit;
+    display: block;
+    background: url('https://i.postimg.cc/W42mWdPX/Jianshu-Logo.png') center/cover no-repeat;
+  }
+}
+
+/* Menu */
+.menu {
+
+}
+.menu-list {
+  // flex
+  display: flex;
+
+  &__item {
+    padding: 0 20px;
+    font-size: 1.7rem;
+  }
+  &__link:not(&__link--active):hover {
+    color: $color-grey-100;
+  }
+  &__link--active {
+    color: $color-primary;
+  }
+}
+
+/* Search */
+.search {
+  $self: &;
+  display: flex;
+  background: rgba($color-grey-300, .2);
+  width: 160px;
+  height: 38px;
+  border-radius: 38px;
+  transition: width .2s ease;
+
+  &__input {
+    background: none;
+    border: none;
+    outline: none;
+    color: $color-default;
+    padding: 0 15px;
+    padding-right: 31px;
+    font-family: Georgia, "Times New Roman", Times, "Songti SC", seri;
+    font-size: 1.4rem;
+  }
+  &__input:focus {
+    width: 240px;
+  }
+  &__input::placeholder {
+    color: $color-grey-300;
+  }
+}
+
+/* Toolbar */
+.toolbar {
+
+}
+
+/* Menu-avatar */
+.menu-avatar {
+
+}
+
+/* Write */
+.write {
+
+}

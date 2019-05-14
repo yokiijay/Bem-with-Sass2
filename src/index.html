@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jianshu-sass-2</title>
+</head>
+<body>
+  <header class="header">
+    <!-- Logo -->
+    <div class="logo header__logo">
+      <a href="/" class="logo__link logo__img"><!-- logo img --></a>
+    </div>
+    <!-- Menu -->
+    <div class="menu header__menu">
+      <ul class="menu-list">
+        <li class="menu-list__item">
+            <a class="menu-list__link menu-list__link--active" href="/">发现</a>
+        </li>
+        <li class="menu-list__item">
+            <a class="menu-list__link menu-list__link" href="/">关注</a>
+        </li>
+        <li class="menu-list__item">
+            <a class="menu-list__link menu-list__link" href="/">消息</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Search -->
+    <div class="search header__search">
+      <input type="text" class="search__input" placeholder="搜索">
+      <div class="search__icon">
+        <i class="iconfont icon-search"></i>
+      </div>
+    </div>
+    <!-- Toolbar -->
+    <div class="toolbar header__toolbar">
+      <i class="toolbar__mode iconfont icon-Aa"></i>
+      <i class="toolbar__beta iconfont icon-zuanshi1"></i>
+    </div>
+    <!-- Menu-avatar -->
+    <div class="menu-avatar header__menu-avatar">
+      <a href="/" class="menu-avatar__link">
+        <img src="https://i.postimg.cc/NM3VfDxf/me.jpg" alt="" class="menu-avatar__img">
+      </a>
+      <ul class="dropdown menu-avatar__dropdown">
+        <li class="dropdown__item">
+          <a href="/" class="dropdown__link">
+            <i class="iconfont icon-47explore"></i>
+            我的主页
+          </a>
+        </li>
+        <li class="dropdown__item">
+          <a href="/" class="dropdown__link">
+            <i class="iconfont icon-book"></i>
+            收藏的文章
+          </a>
+        </li>
+        <li class="dropdown__item">
+          <a href="/" class="dropdown__link">
+            <i class="iconfont icon-pencil"></i>
+            喜欢的文章
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Write -->
+    <div class="write">
+      <button class="btn btn-primary write__btn" type="button" name="button">
+        <i class="iconfont"></i>
+        <span>写文章</span>
+      </button>
+    </div>
+  </header>
+</body>
+</html>
