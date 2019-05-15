@@ -6,10 +6,16 @@ $color-default: #c8c8c8 !default;
 $color-default-dark: desaturate(darken($color-default, 5%), 10%);
 
 $color-grey-100: #eeeeee !default;
-/* $color-grey-300: #c8c8c8 !default; */
+$color-grey-200: #c8c8c8 !default;
 $color-grey-300: #969696 !default;
 $color-grey-700: #4f4f4f !default;
 /* $color-grey-900: #3f3f3f !default; */
 $color-grey-1100: #333333 !default;
 
 $color-dark: #3f3f3f !default;
+
+$screen-sm-max: 576px;
+$screen-md-max: 768px;
+$screen-lg-max: 992px;
+$screen-xl-max: 1200px;
+$screen-xxl-max: 1400px;
