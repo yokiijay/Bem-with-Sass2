@@ -2,6 +2,7 @@
   "name": "sass-webpack2",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://yokiijay.github.io/Bem-with-Sass2",
   "license": "MIT",
   "scripts": {
     "build": "webpack --config ./webpack.build.config.js",
